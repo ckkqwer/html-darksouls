@@ -1,0 +1,89 @@
+*{
+    font-family: Arial;
+    font-weight: 900;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.black{
+    color: black;
+}
+/*background image*/
+.main{
+    background-image: url('../images/bg.jpg');
+}
+.ds1{
+    background-image: url('../images/ds1bg.jpg');
+}
+.ds2{
+    background-image: url('../images/ds2bg.jpg');
+}
+.ds3{
+    background-image: url('../images/ds3bg.jpg');
+}
+.other{
+    background-image: url('../images/firekeeper.jpg');
+}
+/*navigation bar*/
+.nav{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*navigation item*/
+.nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*navigation item when hover*/
+.nav a:hover{
+    background-color: #DC143C;
+    color: black;
+}
+/*content format*/
+.content{
+    padding: 50px;
+    margin-right: 25%
+}
+.imgs{
+    height: auto;
+}
+.coverImgs :hover{
+    transform: scale(1.25);
+    border-radius: 30px;
+    transition-duration: .2s;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.lit{
+    background-color: white;
+    color: black;
+    border: 2px solid #FF7F50;
+}
+
+.lit:hover{
+    background-color: #FF7F50;
+    color: white;
+}

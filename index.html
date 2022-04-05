@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Souls Fanclub!</title>
+    <meta name="description" content="Dark Souls Fanclub! by Chow Kwok Keung">
+    <meta name="keyword" content="Dark Souls">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/myCSS.css">
+    <script>
+        function lit(){
+            document.getElementById("bonfire").src = "images/bonfire-lit.gif";
+        }
+    </script>
+</head>
+<!--title-->
+<body class="main"><br /><br /><br />
+    <h1 align="center"><big>Welcome to the <span style="color: #FF8C00">Dark Souls</span> Fanclub!</big></h1>
+<!--top bar-->
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#Games">Games</a>
+    <a href="#contact">Contact</a>
+    <a href="more.html">More</a>
+</div>
+<!--image-->
+<div>
+    <img src="images/characters.jpg" width="489px" height="755px" align="right" style="max-width: 35%; height: auto; padding-right: 50px">
+</div>
+<!--content-->
+<div class="content" id="about">
+    <h1>About Us</h1>
+    <p><big>Hello, we are the fanclub of Dark Souls series, join us on the great adventure!</big></p>
+    <p><big>Here, you can know all things about the Dark Souls series!</big></p><br /><br />
+    <p><i>Don't give up, skeleton!</i></p>
+</div>
+<div class="content"><hr />
+    <h1>What is Dark Souls?</h1>
+    <p>The games take place within a dark, medieval fantasy setting, where the player's character fights against knights, dragons, phantoms, and demons and other monstrous or supernatural entities.</p>
+    <br />
+    <p>Two sequels were released in the mid-2010s, while a remastered version was released in 2018.</p>
+    <br /><hr />
+    <h1>The Story</h1>
+    <p>The plot of the Dark Souls trilogy differs in that it revolves around the player's attempts, through various means, to either reverse or perpetuate the spread of a curse of undeath known as the "Darksign" - which prevents true death but prompts the undead's gradual descent into a madness and decay called "Hollowing" - based on the player's decisions.</p>
+    <br /><hr />
+    <h1>Gameplay</h1>
+    <p>The Souls games are played in a third-person perspective, and focus on exploring interconnected environments while fighting enemies with weapons and magic. Players battle bosses to progress through the story, while interacting with strange non-playable characters.</p>
+</div>
+<!--games-->
+<div style="padding: 50px" id="Games">
+    <fieldset style="padding-bottom: 40px"><legend><h1>The Trilogy</h1></legend>
+        <div class="coverImgs" align="center">
+            <a href="ds1.html"><img src="images/ds1.jpg" class="imgs" style="max-width: 25%; margin-right: 30px" width="400px" height="255px"></a>
+            <a href="ds2.html"><img src="images/ds2.jpg" class="imgs" style="max-width: 25%; margin-left: 15px; margin-right: 15px" width="400px; " height="255px"></a>
+            <a href="ds3.html"><img src="images/ds3.jpg" class="imgs" style="max-width: 25%; margin-left: 30px" width="400px" height="255px"></a>
+        </div>
+    </fieldset><br />
+</div>
+<!--form-->
+<form>
+    <div style="padding: 50px; margin-top: -100px">
+        <!--interactive button-->
+        <div align="right">
+            <img src="images/bonfire-unlit.png" id="bonfire" align="right" width="430px" height="280px" class="imgs" style="margin-top: 20px">
+            <div>
+                <button onclick="lit()" class="button lit" type="button">Lit</button>
+            </div>
+        </div>
+        <!--question-->
+        <div><h2>Question!!</h2>
+            <label>Which game interested you the most?</label>
+            <select name="game" class="black" autocomplete="off">
+                <option></option>
+                <option value="ds1">Dark Souls</option>
+                <option value="ds2">Dark Souls 2</option>
+                <option value="ds3">Dark Souls 3</option>
+                <option value="all">All</option>
+            </select>
+        </div>
+        <!--Email subscribe-->
+        <div><h2>Subscribe for more content!</h2>
+            <label>Enter your email: </label>
+            <input type="email" name="email" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="black" autocomplete="off" /><br /><br />
+            <input type="submit" value="ok" class="black" onclick="message()" />
+            <input type="reset" value="reset" class="black" /><br />
+        </div>
+    </div>
+</form>
+<!--social media and contact-->
+<div style="padding: 30px" id="contact"><hr />
+    <h1 align="center">Follow us on social media!<h1><br />
+    <div>
+        <img align="left" src="images/praise.jpg" class="imgs" style="max-width: 30%" width="375px" height="375px">
+        <img align="right" src="images/praise-r.jpg" class="imgs" style="max-width: 30%" width="375px" height="375px">
+    </div>
+    <!--social media-->
+    <div align="center">
+        <a href="https://twitter.com/" target="_blank">
+            <img src="images/twitter.png" class="imgs" style="max-width: 10%" width="64px" height="64px"></a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="images/youtube.png" class="imgs" style="max-width: 10%" width="64px" height="64px"></a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.jpg" class="imgs" style="max-width: 10%" width="64px" height="64px"></a>
+    </div>
+    <!--contact-->
+    <div align="center" style="margin-top: 200px">
+        <p>Contact Us: <a href="mailto: dsfanclub@dsmail.ds" style="text-decoration: none">dsfanclub@dsmail.ds</a></p>
+    </div>
+</div>
+<!--footer-->
+<div align="right" style="margin-top: 50px; padding-right: 50px">
+    <p>by Chow Kwok Keung</p>
+</div>
+</body>
+</html>
