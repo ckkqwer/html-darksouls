@@ -1,6 +1,6 @@
 # html darksouls
  
-A webpage about dark souls.
+A webpage about dark souls. All images taken from the internet.
 
 index.html
 -
